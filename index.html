@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript Practice</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    .main {
+      
+        background-color: aquamarine;
+        height: 50vh;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        /* flex-direction: column; */
+        overflow-X: scroll;
+        scroll-behavior: smooth;
+    }
+
+    .same {
+        height: 80%;
+        width: 80%;
+        background-color: rgb(0, 85, 255);
+        margin: 20px;
+    }
+    /* .same{
+  
+    } */
+    .samebtn{
+        margin-top: 20px;
+        padding: 10px;
+        border: 1 solid  blanchedalmond;
+        border-radius: 20px;
+        background-color: cornflowerblue;
+        font-size: 30px;
+        font-family: monospace;
+    }
+    .p-abs{
+        position: absolute;
+    }
+    .img-size{
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        left: 380px;
+        top: 20px;
+    }
+    .light-size{
+        position: absolute;
+        top: 225px;
+        width: 600px;
+        left: 170px;
+    }
+    .trouchmain{
+height: 100vh;
+width: 100vw;
+    }
+    .off{
+        display: none;
+
+    }
+</style>
+
+<body>
+    <!-- <div class="NavbarParent">
+        <div class="NavbarChild">
+            <div class="navbar1 navbaritem"></div>
+            <div class="navbar2 navbaritem">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Eran</li>
+                    <li>UPWork</li>
+                    <li>Fiverr</li>
+                    <li>Guru</li>
+                </ul>
+            </div>
+            <div class="navbar3 navbaritem">
+                <input type="text" name="" id="text"> <br>
+                <br>
+                <input type="number" name="" id="text"> <br>
+                <br>
+                <button>Submit</button>
+            </div>
+        </div>
+    </div> -->
+    <div class="main">
+        <div class="child1 same"></div>
+        <div class="child2 same"></div>
+        <div class="child3 same"></div>
+    </div>
+    <center><div class="btn "><button class="change  samebtn">Change</button></div></center>
+    <center><div class="btnX "><button class="Xcolor  samebtn">XcolorChange</button></div></center>
+<button class="trouch-btn  samebtn ">On-Off</button>
+    <div class="trouchmain p-abs">
+        <div class="trouch">
+            <img class="img-size" src="./trouch/lamp.png" alt="lamp">
+             <img class="light-size active_light " src="./trouch/light.png" alt=""></div>
+    </div>
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+    <script src="app.js"></script>
+</body>
+
+</html>
